@@ -22,7 +22,7 @@ TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):init_xiaomi_alioth
 TARGET_RECOVERY_DEVICE_MODULES := init_xiaomi_alioth
 
 # Kernel
-TARGET_KERNEL_CONFIG := vendor/alioth_defconfig
+TARGET_KERNEL_CONFIG := alioth_defconfig
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sm8250
 
 # OTA assert
